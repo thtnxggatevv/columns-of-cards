@@ -22,3 +22,88 @@ header {
 h1 {
   margin: .75em 0;
 }
+section {
+  display: flex;
+}
+
+div {
+  width: 25%;
+  padding: .75rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid black;
+}
+
+.card1 {
+  background-color: #e2e2e2;
+  text-align: center;
+}
+
+.card2 {
+  background-color: #ccc;
+  text-align: center;
+}
+
+.card3 {
+  background-color: #aaa;
+  text-align: center;
+}
+
+.card4 {
+  background-color: #999;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto 1.5rem;
+  display: block;
+}
+
+.image {
+  width: 100px;
+}
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0;
+}
+
+h3 {
+  text-align: left;
+  font-style: italic;
+  font-weight: normal;
+  font-size: .875rem;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  margin: 0 0 1.5rem;
+  flex-grow: 1;
+}
+
+.btn {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: left;
+  font-size: .875rem;
+  color: #fff;
+
+}
+
+.btn-small {
+  background-color: #333;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
